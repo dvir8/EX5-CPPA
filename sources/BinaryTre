@@ -1,0 +1,80 @@
+#include "BinaryTree.hpp"
+
+using namespace std;
+using namespace ariel;
+BinaryTree::BinaryTree(){
+
+}
+
+iterator<T> BinaryTree::begin(){
+            return *this;
+}
+
+        iterator<T> BinaryTree::end(){
+            return nullptr;
+        }
+
+        BinaryTree::BinaryTree(T arr[]){
+            
+        }
+
+        BinaryTree& BinaryTree::add_root(T){
+            return *this;
+        }
+
+        BinaryTree& BinaryTree::add_left(T ,T){
+            return *this;
+        }
+
+        BinaryTree& BinaryTree::add_right(T , T){
+            return *this;
+        }
+
+        BinaryTree<T>& BinaryTree::operator ++(){
+            return *this;
+        }
+        iterator<T> BinaryTree::operator ->(){
+
+        }
+        BinaryTree<T> BinaryTree::operator *(){
+
+        }
+
+        bool BinaryTree::operator!=(BinaryTree<T>&){
+
+        }
+        ostream& ariel::operator<<(os& a, BinaryTree<T>){
+
+        }
+        
+        int BinaryTree::size(){
+
+        }
+        BinaryTree<T> BinaryTree::begin_inorder(){
+
+        }
+
+        BinaryTree<T> BinaryTree::end_inorder(){
+
+        }
+
+        BinaryTree<T> BinaryTree::begin_preorder(){
+
+        }
+
+        BinaryTree<T> BinaryTree::end_preorder(){
+
+        }
+
+        BinaryTree<T> BinaryTree::begin_postorder(){
+
+        }
+
+        BinaryTree<T> BinaryTree::end_postorder(){
+
+        }
+        
+    
+
+
+
